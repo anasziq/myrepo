@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div >
+  <h1 class="tle">
+    {{ title }}
+  </h1>
+  <app-my-comp [t]=" 'frst component'" (clc)='getvalue($event)' ></app-my-comp>
+  <app-my-comp [t]=" 'second component'" (clc)='getvalue($event)'></app-my-comp>
+<div> <h3>
+  {{do}}
+</h3></div>
